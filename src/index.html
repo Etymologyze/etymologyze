@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Etymologyze!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <script defer type="module" src="index.js"></script>
+  </head>
+
+  <body>
+
+    <header>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Github</a>
+      </nav>
+    </header>
+
+    <label for="get-word">Search:</label>
+    <input type="search" id="get-word" onkeypress="handleKeySubmit();" name="q">
+    <button type="button" id="ety"  onclick="handleSubmit();">Etymologyze!</button>
+
+    <div id="display-text"></div>
+
+  </body>
+
+</html>
