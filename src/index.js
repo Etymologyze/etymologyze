@@ -2,7 +2,7 @@ const word = document.getElementById('get-word');
 const verb = document.getElementById('ety');
 const display = document.getElementById('display-text');
 
-const api_key = '04826c02-e3a0-4592-9f25-c55b62a7f81a'; 
+const api_key = process.env.TOKEN; 
 
 const requestOptions = {
   method: 'GET',
