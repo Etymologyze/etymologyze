@@ -7,20 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/style.css" rel="stylesheet">
     <script defer type="module" src="index.js"></script>
+    <script src="//code.iconify.design/1/1.0.6/iconify.min.js"></script>
   </head>
 
   <body>
 
     <header>
-      <nav>
-        <a href="#">Home</a>
-        <a href="#">Github</a>
+      <div class="not-a-form">
+        <label> 
+          <input type="search" id="get-word" onkeypress="handleKeySubmit();" name="q">
+        </label>
+        <button type="button" id="ety"  onclick="handleSubmit();">Etymologyze!</button>
+      </div>
+
+      <nav class="navbar">
+        <a href="#" class="github">GitHub</a>
+        <a href="#" class="credits">Credits</a>
       </nav>
     </header>
-
-    <label for="get-word">Search:</label>
-    <input type="search" id="get-word" onkeypress="handleKeySubmit();" name="q">
-    <button type="button" id="ety"  onclick="handleSubmit();">Etymologyze!</button>
 
     <div id="display-text"></div>
 

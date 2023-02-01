@@ -10,6 +10,7 @@ const requestOptions = {
 }
 
 const wordAndEt = {
+  // need to change this for reasons relating to readability...
   word: '',
   et: '',
   pronunciation: '',
