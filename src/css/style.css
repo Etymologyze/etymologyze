@@ -1,2 +1,15 @@
 /* I will be starting this file from scratch because it was gross but also cool be it looked like the old MDN website */
 
+body {
+    background: #1e1f1f;
+}
+
+header {
+    background: #060b0f;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
