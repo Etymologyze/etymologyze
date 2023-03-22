@@ -1,4 +1,4 @@
-/* I will be starting this file from scratch because it was gross but also cool be it looked like the old MDN website */
+/* I will be starting this file from scratch because it was gross but also cool because it looked like the old MDN website */
 
 body {
     background: #1e1f1f;
@@ -12,4 +12,8 @@ header {
     left: 0;
     width: 100%;
     box-sizing: border-box;
+}
+
+nav {
+	text-align: right;    
 }
